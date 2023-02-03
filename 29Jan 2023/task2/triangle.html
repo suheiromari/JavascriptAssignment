@@ -1,0 +1,11 @@
+<script>
+function triangleArea(a, b, c) {
+  let s = (a + b + c) / 2;
+  let area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+  return area;
+}
+
+let a = 5, b = 6, c = 7;
+let area = triangleArea(a, b, c);
+console.log("Area of triangle with sides " + a + ", " + b + ", " + c + " is " +  ( Math.round(100* area))/100);
+</script>
