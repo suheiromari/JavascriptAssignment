@@ -1,6 +1,6 @@
 // Math.random()*2 returns a random number between 0 and 2:
 function computerPlay() {
-  let x = Math.random() * 2;
+  let x = Math.random() * 3;
   x = Math.round(x);
 
   // ‘Rock’, ‘Paper’ or ‘Scissors’.
